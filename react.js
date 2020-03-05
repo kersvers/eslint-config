@@ -28,7 +28,7 @@ module.exports = {
             'when': 'never'
         }],
         'react/jsx-equals-spacing': ['error', 'never'],
-        'react/jsx-first-prop-new-line': ['error', 'multiline'],
+        'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-handler-names': ['error', {
             'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on'
@@ -72,6 +72,7 @@ module.exports = {
         'react/self-closing-comp': 'error',
         'react/sort-comp': ['error', {
             'order': [
+                'instance-variables',
                 'static-variables',
                 '/^.+Ref$/',
                 'static-methods',
