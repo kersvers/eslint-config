@@ -106,14 +106,7 @@ module.exports = {
         'no-useless-constructor': 'off',
         'no-var': 'error',
         'no-whitespace-before-property': 'error',
-        'object-curly-newline': ['error', {
-            'ObjectExpression': {
-                'minProperties': 1
-            },
-            'ObjectPattern': 'never',
-            'ImportDeclaration': 'never',
-            'ExportDeclaration': 'never'
-        }],
+        'object-curly-newline': 'off',
         'object-curly-spacing': ['error', 'always'],
         'object-property-newline': 'error',
         'object-shorthand': ['error', 'properties', {
