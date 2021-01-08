@@ -1,6 +1,6 @@
 {
     "name": "@kersvers/eslint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^4.12.0",
