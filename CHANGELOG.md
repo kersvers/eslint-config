@@ -5,11 +5,15 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.2] - 2021-01-08
+### Security
+- Updated dependencies.
+
+
 ## [1.0.1] - 2020-03-05
 ### Changed
 - Disabled the `object-curly-newline` rule.
 - Tweaked the `react/jsx-first-prop-new-line` and `react/sort-comp` rules.
-
 
 
 ## [1.0.0] - 2020-03-05
