@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint/brace-style': ['error', '1tbs'],
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         '@typescript-eslint/indent': ['error', 4],
         '@typescript-eslint/naming-convention': ['error', {
