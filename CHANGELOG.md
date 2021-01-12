@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.5] - 2021-01-12
+### Changed
+- Tweak the `@typescript-eslint/naming-convention` rule.
+
+
 ## [1.0.4] - 2021-01-12
 ### Changed
 - Fix false positive errors for the `@typescript-eslint/no-unused-vars` rule.
@@ -33,6 +38,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.5]: https://github.com/kersvers/eslint-config/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/kersvers/eslint-config/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/kersvers/eslint-config/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/kersvers/eslint-config/compare/v1.0.1...v1.0.2
