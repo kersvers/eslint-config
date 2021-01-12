@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.3] - 2021-01-12
+### Changed
+- The `@typescript-eslint/camelcase` rule was deprecated and replaced in favor of the `@typescript-eslint/naming-convention` rule.
+
+
 ## [1.0.2] - 2021-01-08
 ### Security
 - Updated dependencies.
