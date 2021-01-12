@@ -25,8 +25,11 @@ module.exports = {
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         '@typescript-eslint/indent': ['error', 4],
         '@typescript-eslint/naming-convention': ['error', {
-            selector: 'default',
-            format: ['camelCase']
+            selector: 'variable',
+            format: ['camelCase', 'PascalCase', 'UPPER_CASE']
+        }, {
+            selector: 'typeLike',
+            format: ['PascalCase']
         }],
         '@typescript-eslint/no-empty-interface': ['error', {
             allowSingleExtends: true
