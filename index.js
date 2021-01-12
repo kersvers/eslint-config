@@ -17,21 +17,24 @@ module.exports = {
     ],
     rules: {
         '@typescript-eslint/array-type': ['error', {
-            'default': 'array'
+            default: 'array'
         }],
         '@typescript-eslint/brace-style': ['error', '1tbs'],
-        '@typescript-eslint/camelcase': 'error',
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         '@typescript-eslint/indent': ['error', 4],
+        '@typescript-eslint/naming-convention': ['error', {
+            selector: 'default',
+            format: ['camelCase']
+        }],
         '@typescript-eslint/no-empty-interface': ['error', {
-            'allowSingleExtends': true
+            allowSingleExtends: true
         }],
         '@typescript-eslint/no-extra-non-null-assertion': ['error'],
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {
-            'ignoreRestSiblings': true
+            ignoreRestSiblings: true
         }],
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
@@ -39,28 +42,28 @@ module.exports = {
         '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/semi': ['error', 'always'],
         '@typescript-eslint/space-before-function-paren': ['error', {
-            'anonymous': 'never',
-            'named': 'never',
-            'asyncArrow': 'always'
+            anonymous: 'never',
+            named: 'never',
+            asyncArrow: 'always'
         }],
         'array-bracket-spacing': ['error', 'never'],
         'arrow-parens': ['error', 'always'],
         'arrow-spacing': 'error',
         'block-spacing': ['error', 'always'],
         'brace-style': 'off',
-        'camelcase': 'off',
+        camelcase: 'off',
         'capitalized-comments': ['error', 'always', {
-            'ignoreConsecutiveComments': true,
-            'ignoreInlineComments': true
+            ignoreConsecutiveComments: true,
+            ignoreInlineComments: true
         }],
         'comma-dangle': ['error', 'never'],
         'comma-spacing': ['error', {
-            'before': false,
-            'after': true
+            before: false,
+            after: true
         }],
         'dot-notation': 'error',
         'eol-last': ['error', 'always'],
-        'eqeqeq': ['error', 'always'],
+        eqeqeq: ['error', 'always'],
         'func-call-spacing': 'off',
         'func-style': ['error', 'expression'],
         'id-blacklist': ['error', 'e', 'err', 'evt', 'cb'],
@@ -70,23 +73,23 @@ module.exports = {
         'import/newline-after-import': 'error',
         'import/no-self-import': 'error',
         'import/no-webpack-loader-syntax': 'error',
-        'indent': 'off',
+        indent: 'off',
         'jsx-quotes': ['error', 'prefer-double'],
         'key-spacing': ['error', {
-            'beforeColon': false,
-            'afterColon': true
+            beforeColon: false,
+            afterColon: true
         }],
         'keyword-spacing': 'error',
         'linebreak-style': ['error', 'unix'],
         'lines-between-class-members': ['error', 'always', {
-            'exceptAfterSingleLine': true
+            exceptAfterSingleLine: true
         }],
         'no-console': ['error', {
-            'allow': ['warn', 'error']
+            allow: ['warn', 'error']
         }],
         'no-duplicate-imports': 'error',
         'no-else-return': ['error', {
-            'allowElseIf': false
+            allowElseIf: false
         }],
         'no-eval': 'error',
         'no-extend-native': 'error',
@@ -96,8 +99,8 @@ module.exports = {
         'no-multi-spaces': 'error',
         'no-multiple-empty-lines': 'error',
         'no-restricted-imports': ['error', {
-            'name': 'lodash',
-            'message': 'Please use lodash-es instead to reduce bundle size.'
+            name: 'lodash',
+            message: 'Please use lodash-es instead to reduce bundle size.'
         }],
         'no-trailing-spaces': 'error',
         'no-undef-init': 'error',
@@ -110,20 +113,20 @@ module.exports = {
         'object-curly-spacing': ['error', 'always'],
         'object-property-newline': 'error',
         'object-shorthand': ['error', 'properties', {
-            'avoidQuotes': true
+            avoidQuotes: true
         }],
         'padding-line-between-statements': ['error', {
-            'blankLine': 'always',
-            'prev': '*',
-            'next': 'return'
+            blankLine: 'always',
+            prev: '*',
+            next: 'return'
         }, {
-            'blankLine': 'always',
-            'prev': ['const', 'let', 'var'],
-            'next': '*'
+            blankLine: 'always',
+            prev: ['const', 'let', 'var'],
+            next: '*'
         }, {
-            'blankLine': 'any',
-            'prev': ['const', 'let', 'var'],
-            'next': ['const', 'let', 'var']
+            blankLine: 'any',
+            prev: ['const', 'let', 'var'],
+            next: ['const', 'let', 'var']
         }],
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
@@ -131,11 +134,11 @@ module.exports = {
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
-        'quotes': 'off',
+        quotes: 'off',
         'quote-props': ['error', 'as-needed'],
         'rest-spread-spacing': 'error',
         'require-await': 'error',
-        'semi': 'off',
+        semi: 'off',
         'space-before-blocks': 'error',
         'space-before-function-paren': 'off',
         'space-in-parens': 'error',
@@ -154,6 +157,6 @@ module.exports = {
         'unicorn/import-index': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/regex-shorthand': 'error',
-        'yoda': 'error'
+        yoda: 'error'
     }
 };

@@ -25,27 +25,27 @@ module.exports = {
         'react/jsx-closing-bracket-location': 'error',
         'react/jsx-closing-tag-location': 'error',
         'react/jsx-curly-spacing': ['error', {
-            'when': 'never'
+            when: 'never'
         }],
         'react/jsx-equals-spacing': ['error', 'never'],
         'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-handler-names': ['error', {
-            'eventHandlerPrefix': 'handle',
-            'eventHandlerPropPrefix': 'on'
+            eventHandlerPrefix: 'handle',
+            eventHandlerPropPrefix: 'on'
         }],
         'react/jsx-no-useless-fragment': 'error',
         'react/jsx-curly-brace-presence': ['error', {
-            'props': 'never',
-            'children': 'never'
+            props: 'never',
+            children: 'never'
         }],
         'react/jsx-fragments': ['error', 'element'],
         'react/jsx-pascal-case': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
         'react/jsx-tag-spacing': ['error', {
-            'closingSlash': 'never',
-            'beforeSelfClosing': 'always',
-            'afterOpening': 'never',
-            'beforeClosing': 'never'
+            closingSlash: 'never',
+            beforeSelfClosing: 'always',
+            afterOpening: 'never',
+            beforeClosing: 'never'
         }],
         'react/no-access-state-in-setstate': 'error',
         'react/no-children-prop': 'error',
@@ -56,7 +56,7 @@ module.exports = {
         'react/no-find-dom-node': 'error',
         'react/no-is-mounted': 'error',
         'react/no-multi-comp': ['error', {
-            'ignoreStateless': true
+            ignoreStateless: true
         }],
         'react/no-typos': 'error',
         'react/no-unsafe': 'error',
@@ -64,14 +64,14 @@ module.exports = {
         'react/no-will-update-set-state': 'error',
         'react/prefer-es6-class': ['error', 'always'],
         'react/prefer-stateless-function': ['error', {
-            'ignorePureComponents': true
+            ignorePureComponents: true
         }],
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'error',
         'react/require-render-return': 'error',
         'react/self-closing-comp': 'error',
         'react/sort-comp': ['error', {
-            'order': [
+            order: [
                 'instance-variables',
                 'static-variables',
                 '/^.+Ref$/',
@@ -82,8 +82,8 @@ module.exports = {
                 'everything-else',
                 'rendering'
             ],
-            'groups': {
-                'rendering': [
+            groups: {
+                rendering: [
                     'render',
                     '/^render.+$/'
                 ]
