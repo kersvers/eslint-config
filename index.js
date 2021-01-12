@@ -104,6 +104,7 @@ module.exports = {
         }],
         'no-trailing-spaces': 'error',
         'no-undef-init': 'error',
+        'no-unused-vars': 'off',
         'no-useless-call': 'error',
         'no-useless-concat': 'error',
         'no-useless-constructor': 'off',
