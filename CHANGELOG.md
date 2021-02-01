@@ -5,8 +5,13 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.8] - 2021-02-01
+### Changed
+- `peerDependencies` only include ESLint plugins now.
+
+
 ## [1.0.7] - 2021-02-01
-### Removed
+### Changed
 - Moved ESLint plugins from `dependencies` to `peerDependencies` due to a [limitation within ESLint](https://github.com/eslint/rfcs/pull/5).
 
 
@@ -48,6 +53,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.8]: https://github.com/kersvers/eslint-config/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/kersvers/eslint-config/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/kersvers/eslint-config/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/kersvers/eslint-config/compare/v1.0.4...v1.0.5
