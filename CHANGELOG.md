@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.7] - 2021-02-01
+### Removed
+- Moved ESLint plugins from `dependencies` to `peerDependencies` due to a [limitation within ESLint](https://github.com/eslint/rfcs/pull/5).
+
+
 ## [1.0.6] - 2021-01-12
 ### Removed
 - Disable the `@typescript-eslint/explicit-module-boundary-types` rule.
@@ -43,6 +48,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.7]: https://github.com/kersvers/eslint-config/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/kersvers/eslint-config/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/kersvers/eslint-config/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/kersvers/eslint-config/compare/v1.0.3...v1.0.4
