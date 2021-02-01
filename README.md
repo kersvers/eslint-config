@@ -17,10 +17,22 @@ configurations.
 
 ## Usage
 ### Installation
-Install the package and the `eslint` dependency using the following command.
+Create a `.npmrc` file in the root of your project to point the npm CLI to GitHub Packages as the npm registry:
 
 ```shell
-$ npm install --save-dev kersvers/eslint-config eslint
+@kersvers:registry=https://npm.pkg.github.com/kersvers
+```
+
+Install the package using the following command. You need to be [authenticated to GitHub Packages](https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages):
+
+```shell
+$ npm install @kersvers/eslint-config --save-dev
+```
+
+ESLint plugins used by this config must also be installed within your project. This is a [limitation within ESLint](https://github.com/eslint/rfcs/pull/5).
+
+```shell
+$ npx install-peerdeps --dev @kersvers/eslint-config
 ```
 
 ### Extending
