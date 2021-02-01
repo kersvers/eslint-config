@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.9] - 2021-02-01
+### Added
+- `postinstall` script to inform the user to install the `peerDependencies`.
+
+
 ## [1.0.8] - 2021-02-01
 ### Changed
 - `peerDependencies` only include ESLint plugins now.
@@ -53,6 +58,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.9]: https://github.com/kersvers/eslint-config/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/kersvers/eslint-config/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/kersvers/eslint-config/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/kersvers/eslint-config/compare/v1.0.5...v1.0.6
