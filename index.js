@@ -32,9 +32,6 @@ module.exports = {
             selector: 'typeLike',
             format: ['PascalCase']
         }],
-        '@typescript-eslint/no-empty-interface': ['error', {
-            allowSingleExtends: true
-        }],
         '@typescript-eslint/no-extra-non-null-assertion': ['error'],
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {
