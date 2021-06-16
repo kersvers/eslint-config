@@ -32,6 +32,7 @@ module.exports = {
             selector: 'typeLike',
             format: ['PascalCase']
         }],
+        '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/no-extra-non-null-assertion': ['error'],
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {
@@ -52,7 +53,7 @@ module.exports = {
         'arrow-spacing': 'error',
         'block-spacing': ['error', 'always'],
         'brace-style': 'off',
-        camelcase: 'off',
+        'camelcase': 'off',
         'capitalized-comments': ['error', 'always', {
             ignoreConsecutiveComments: true,
             ignoreInlineComments: true
@@ -64,7 +65,7 @@ module.exports = {
         }],
         'dot-notation': 'error',
         'eol-last': ['error', 'always'],
-        eqeqeq: ['error', 'always'],
+        'eqeqeq': ['error', 'always'],
         'func-call-spacing': 'off',
         'func-style': ['error', 'expression'],
         'id-blacklist': ['error', 'e', 'err', 'evt', 'cb'],
@@ -74,7 +75,7 @@ module.exports = {
         'import/newline-after-import': 'error',
         'import/no-self-import': 'error',
         'import/no-webpack-loader-syntax': 'error',
-        indent: 'off',
+        'indent': 'off',
         'jsx-quotes': ['error', 'prefer-double'],
         'key-spacing': ['error', {
             beforeColon: false,
@@ -136,11 +137,11 @@ module.exports = {
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
-        quotes: 'off',
-        'quote-props': ['error', 'as-needed'],
+        'quotes': 'off',
+        'quote-props': ['error', 'consistent-as-needed'],
         'rest-spread-spacing': 'error',
         'require-await': 'error',
-        semi: 'off',
+        'semi': 'off',
         'space-before-blocks': 'error',
         'space-before-function-paren': 'off',
         'space-in-parens': 'error',
@@ -159,6 +160,6 @@ module.exports = {
         'unicorn/import-index': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/regex-shorthand': 'error',
-        yoda: 'error'
+        'yoda': 'error'
     }
 };
