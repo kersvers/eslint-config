@@ -114,7 +114,9 @@ module.exports = {
         'no-whitespace-before-property': 'error',
         'object-curly-newline': 'off',
         'object-curly-spacing': ['error', 'always'],
-        'object-property-newline': 'error',
+        'object-property-newline': ['error', {
+            allowAllPropertiesOnSameLine: true
+        }],
         'object-shorthand': ['error', 'properties', {
             avoidQuotes: true
         }],
