@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.13] - 2021-06-16
+### Changed
+- Use `consistent-as-needed` as default option for the `quote-props` rule.
+- Use `allowAllPropertiesOnSameLine` for the `object-property-newline` rule.
+
+
 ## [1.0.12] - 2021-06-16
 ### Removed
 - Disable the `@typescript-eslint/no-empty-interface` rule.
@@ -73,6 +79,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.13]: https://github.com/kersvers/eslint-config/compare/v1.0.12...v1.0.13
 [1.0.12]: https://github.com/kersvers/eslint-config/compare/v1.0.11...v1.0.12
 [1.0.11]: https://github.com/kersvers/eslint-config/compare/v1.0.10...v1.0.11
 [1.0.10]: https://github.com/kersvers/eslint-config/compare/v1.0.9...v1.0.10
