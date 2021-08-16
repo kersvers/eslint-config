@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [1.0.14] - 2021-08-16
+### Added
+- New rule [unicorn/no-useless-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md).
+- New rule [unicorn/no-useless-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md).
+
+### Security
+- Updated dependencies.
+
+
 ## [1.0.13] - 2021-06-16
 ### Changed
 - Use `consistent-as-needed` as default option for the `quote-props` rule.
@@ -79,6 +88,7 @@ adheres to [Semantic Versioning][semver].
 
 
 
+[1.0.14]: https://github.com/kersvers/eslint-config/compare/v1.0.13...v1.0.14
 [1.0.13]: https://github.com/kersvers/eslint-config/compare/v1.0.12...v1.0.13
 [1.0.12]: https://github.com/kersvers/eslint-config/compare/v1.0.11...v1.0.12
 [1.0.11]: https://github.com/kersvers/eslint-config/compare/v1.0.10...v1.0.11

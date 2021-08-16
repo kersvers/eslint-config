@@ -159,6 +159,8 @@ module.exports = {
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
         'unicorn/no-unsafe-regex': 'error',
+        'unicorn/no-useless-length-check': 'error',
+        'unicorn/no-useless-spread': 'error',
         'unicorn/import-index': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/regex-shorthand': 'error',
