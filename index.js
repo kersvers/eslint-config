@@ -67,7 +67,6 @@ module.exports = {
         'eol-last': ['error', 'always'],
         'eqeqeq': ['error', 'always'],
         'func-call-spacing': 'off',
-        'func-style': ['error', 'expression'],
         'id-blacklist': ['error', 'e', 'err', 'evt', 'cb'],
         'implicit-arrow-linebreak': ['error', 'beside'],
         'import/export': 'error',
