@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project
 adheres to [Semantic Versioning][semver].
 
 
+## [2.0.2] - 2022-11-02
+### Removed
+- Disable the `func-style` rule.
+
+### Security
+- Updated dependencies.
+
 ## [2.0.1] - 2022-03-30
 ### Security
 - Updated dependencies.
